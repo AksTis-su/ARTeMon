@@ -35,6 +35,8 @@ BusyBox с awk, basename, cat, cut, date, df, echo, grep, gzip, head, logger, mk
 
 4. Выполните скрипт вручную для проверки:
    - /jffs/scripts/artemon.sh &
+5. Проверьте системный журнал:
+   - Зайдите в веб-интерфейс роутера (обычно http://192.168.0.1), перейдите в System Log и найдите записи с тегом ARTeMon
 
 ### Запуск
 ```
