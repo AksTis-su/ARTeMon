@@ -96,7 +96,7 @@ BusyBox с awk, basename, cat, cut, date, df, echo, grep, gzip, head, logger, mk
 
 ## Варианты решения проблем
 
-Внешний запуск например с помощью Raspberry Pi:
+Внешний запуск например с помощью Raspberry Pi. Примерно как-то так:
 
 ```
 #!/bin/bash
