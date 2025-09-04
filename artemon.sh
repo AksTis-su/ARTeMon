@@ -10,7 +10,8 @@
 
 # Версия: 1.0
 # Дата: 30 Марта 2025
-# Лицензия: Общественное достояние
+# Лицензия: MIT
+
 # Зависимости: BusyBox с awk, basename, cat, cut, date, df, echo, grep, gzip, head, logger, mkdir, pidof, printf, sleep, sort, tail, wc
 # Запуск: ./artemon.sh [interval_temp] [interval_log] [temp_alarm] [--debug|-d] &
 #		  ./artemon.sh [interval_temp] [--interactive|-i]
@@ -243,4 +244,5 @@ if [ "$INTERACTIVE" -eq 0 ]; then
 		debug_msg "Ожидание следующего замера $INTERVAL_TEMP секунд"
 		sleep "$INTERVAL_TEMP"
 	done
+
 fi
